@@ -1,0 +1,22 @@
+**文件路径**：`Knowledge-distillation/src/README.md`
+
+```markdown
+# 源代码说明 (Source Code Documentation)
+
+本目录包含裂缝分割知识蒸馏系统的完整实现代码，按功能模块组织如下。
+
+## 文件结构
+
+```bash
+src/
+├── config.py                   # 统一配置中心
+├── datasets.py                 # 数据加载与预处理
+├── student_model.py            # 轻量化学生模型定义
+├── get_teacher.py              # 教师模型生成与保存
+├── distillation_loss.py        # 多源蒸馏损失函数
+├── distillation_trainer.py     # 知识蒸馏训练主程序
+├── teacher_test.py             # 教师模型基准测试
+├── predict_crack.py            # 推理与可视化脚本
+├── plot_history.py             # 训练历史可视化
+├── chinese_test.py             # 中文字体配置工具
+└── env_test.py                 # 环境检测脚本
