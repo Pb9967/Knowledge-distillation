@@ -1,0 +1,26 @@
+# PyTorch & CUDA
+torch==2.8.0+cu129
+torchvision==0.23.0+cu129
+torchsummary==1.5.1
+
+# Segmentation
+segmentation-models-pytorch>=0.3.3
+
+# Image Processing
+Pillow>=9.0.0
+scipy>=1.7.0
+
+# Numerical & Data
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Metrics
+scikit-learn>=1.0.0
+
+# Utilities
+tqdm>=4.60.0
+psutil>=5.8.0
